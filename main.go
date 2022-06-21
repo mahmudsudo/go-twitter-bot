@@ -14,10 +14,10 @@ import (
 // and secret keys needed for authentication against
 // the twitter REST API.
 type Credentials struct {
-    ConsumerKey       string `pSOY3PHXer8XJboBMLTbtKYe9`
-    ConsumerSecret    string	`cSb1jL8G2yNUryXNcLLfIemu60JW9ZdbiM8UcpfU4JKygRlwgm`
-    AccessToken       string	`1020367846512168960-ivqAqx10QXa4MB1euFmoZSv8Rat7Fi`
-    AccessTokenSecret string	`iaDWHKWN5jZ0zmSw6Gnffdjcyw0IqQcuf6ojHK6jhFrzf`
+    ConsumerKey       string 
+    ConsumerSecret    string	
+    AccessToken       string	
+    AccessTokenSecret string	
 }
 
 // getClient is a helper function that will return a twitter client
